@@ -1,0 +1,33 @@
+.button {
+  margin: 0 auto;
+  height: 50px;
+  width: 50px;
+}
+
+#list-wrapper{
+  width: 300px;
+  max-height: 500px;
+}
+
+#list{
+  width: 300px;
+  height: 360px;
+  border: 1px solid black;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+.item{
+  display: flex;
+  text-align: left;
+  align-items: center;
+  border-bottom: 1px solid rgba(88, 88, 88, 0.384);
+  height: 120px;
+}
+
+.item-img {
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+  background-color: red;
+}
