@@ -5,65 +5,75 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Inchoo exercise</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet"> 
 </head>
 <body>
-  <div class="button">
-    <!-- cart image -->
+  <div class="cart-button">
+    <i class="fas fa-shopping-cart"></i>
   </div>
-  <div id="list-wrapper">
-    <div id="list-header">
-      <p>my cart (5items)</p>
-      <div id="scroll-up" class="scroll-button">
-        UP
+  <div class="list-wrapper">
+    <div class="list-header">
+      <p>my cart (5 items)</p>
+      <div id="scroll-up" class="scroll" data-direction="up">
+        <i class="fas fa-arrow-circle-up"></i>
       </div>
     </div>
     <div id="list">
 
       <div class="item">
-        <div class="item-img"></div>
+        <img src="./images/Fizik-Antare-R3-Saddle--e1587967708738.jpeg" alt="">
         <div class="item-attributes">
-          <p>attribujjjjjjjjjjte 1</p>
-          <p>attribute 2</p>
-          <p>attribute 3</p>
+          <p>Fizik Antares saddle</p>
+          <p>Width 140mm</p>
+          <p>Color: Black</p>
+          <p>Price: 80$</p>
         </div>
       </div>
       <div class="item">
-        <div class="item-img"></div>
+        <img src="./images/bora wheels" alt="">
         <div class="item-attributes">
-          <p>attribute 1</p>
-          <p>attribute 2</p>
-          <p>attribute 3</p>
+          <p>Bora Ultra Wheelset</p>
+          <p>Material: Carbon</p>
+          <p>Color: Black/Red</p>
+          <p>Price: 3499$</p>
         </div>
       </div>
       <div class="item">
-        <div class="item-img"></div>
+        <img src="./images/colnago.jpeg" alt="">
         <div class="item-attributes">
-          <p>attribute 1</p>
-          <p>attribute 2</p>
-          <p>attribute 3</p>
+          <p>Colnago C64 frameset</p>
+          <p>Color: Black/Red</p>
+          <p>Size: 58</p>
+          <p>Price: 4000$</p>
         </div>
       </div>
       <div class="item">
-        <div class="item-img"></div>
+        <img src="./images/groupset.jpeg" alt="">
         <div class="item-attributes">
-          <p>attribute 1</p>
-          <p>attribute 2</p>
-          <p>attribute 3</p>
+          <p>Campagnolo Record groupset</p>
+          <p>Rear: 11-32</p>
+          <p>Front: 52-36</p>
+          <p>Price: 1749$</p>
         </div>
       </div>
       <div class="item">
-        <div class="item-img"></div>
+        <img src="./images/bar tape.jpeg" alt="">
         <div class="item-attributes">
-          <p>attribute 1</p>
-          <p>attribute 2</p>
-          <p>attribute 3</p>
+          <p>Cinelli cork bar tape</p>
+          <p>Color: black</p>
+          <p>Size: 3mm</p>
+          <p>Price: 15$</p>
         </div>
       </div>
     </div>
 
-    <div class="scroll" id="scroll-down">DOWN</div>
+    <div class="scroll" id="scroll-down" data-direction="down">
+      <i class="fas fa-arrow-circle-down"></i>
+    </div>
     <div class="list-footer">
-      <div id="basket-controls">
+      <div class="cart-controls">
         <button>edit cart</button>
         <button>checkout</button>
       </div>
